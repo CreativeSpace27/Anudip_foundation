@@ -14,11 +14,12 @@ public class palindrom {
         else{
             System.out.println("String is not plaindrome");
         }
-
+        sc.close();
     }
     public static void main(String[] args) {
         palindrom p = new palindrom();
         p.chkpalin();
+
     }
 }
 
